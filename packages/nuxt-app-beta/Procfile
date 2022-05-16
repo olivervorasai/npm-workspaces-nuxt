@@ -1,1 +1,1 @@
-web: npm run heroku-postbuild -w nuxt-app-beta
+web: npm run heroku-postbuild -w nuxt-app-beta && npm run start -w nuxt-app-beta
