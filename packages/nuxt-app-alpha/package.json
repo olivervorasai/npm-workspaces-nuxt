@@ -1,14 +1,19 @@
 {
-  "name": "nuxt-app-alpha",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nuxt": "^2.15.8"
-  }
+    "name": "nuxt-app-alpha",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "heroku-postbuild": "npm run build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "nuxt": "^2.15.8"
+    }
 }
+
