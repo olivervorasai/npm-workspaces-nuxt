@@ -8,7 +8,7 @@
         "dev": "nuxt",
         "build": "nuxt build",
         "start": "nuxt start",
-        "heroku-postbuild": "npm run build -w nuxt-app-beta"
+        "heroku-postbuild": "npm run build"
     },
     "author": "",
     "license": "ISC",
